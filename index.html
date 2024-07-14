@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .short{
+            display: flex;
+            justify-content: center;
+        }
+        #url{
+            width: 150%;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="short">
+        <form action="/short" method="post">
+            <label for="url">Enter the URL</label>
+            <input type="text" placeholder="enter the url that you want in short form" id="url" name="url">
+            <br>
+            <br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
