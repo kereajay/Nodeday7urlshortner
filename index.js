@@ -18,7 +18,7 @@ app.post('/short',(req,res)=>{
     redircturl=url
     console.log(url)
     const uniqueid=nanoid(5)
-    res.json({success:true,shortURL:`http://localhost:1598/${uniqueid}`})
+    res.json({success:true,shortURL:`https://nodeday7urlshortner.onrender.com/${uniqueid}`})
 })
 
 app.get('/',((req,res)=>{
